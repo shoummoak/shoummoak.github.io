@@ -4,20 +4,10 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at ...
+Hello. I am a Computer Science PhD student at Indiana University -- Bloomington. I am advised by Saúl Blanco.
 
-## Research Interests
+My research interests are in the intersection of machine learning and discrete optimiztion problems. Particularly, developing principled machine learning approcahes to solving (hard) discrete problems.
 
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
+[//]: <> {% include_relative _includes/publications.md %}
 
-## News
-
-- **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
-- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
-- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019.
-
-{% include_relative _includes/publications.md %}
-
-{% include_relative _includes/services.md %}
+[//]: <> {% include_relative _includes/services.md %}
