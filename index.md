@@ -10,4 +10,3 @@ My research interests are in the intersection of machine learning and discrete o
 
 {% include_relative _includes/publications.md %}
 
-{% include_relative _includes/services.md %}
