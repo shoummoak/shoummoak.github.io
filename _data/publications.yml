@@ -2,12 +2,12 @@ main:
 
   - title: Supplementing Recurrent Neural Networks with Annealing to Solve Combinatorial Optimization Problems
     authors: Shoummo Ahsan Khandoker, Jawaril Munshad Abedin, Mohamed Hibat-Allah
-    conference_short: MICCAI
+    conference_short:
     conference: "Machine Learning: Science and Technology, 2023."
     pdf: https://iopscience.iop.org/article/10.1088/2632-2153/acb895
     code: https://github.com/RNN-VCA-CO/RNN-VCA-CO
     bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
+    image: 
     notes: 
 
   - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"

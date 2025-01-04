@@ -2,7 +2,7 @@
 layout: homepage
 ---
 
-## About Me
+## About
 
 Hello. I am a Computer Science PhD student at Indiana University -- Bloomington. I am advised by Saúl Blanco.
 
