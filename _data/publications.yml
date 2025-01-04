@@ -1,10 +1,11 @@
 main:
 
   - title: Supplementing Recurrent Neural Networks with Annealing to Solve Combinatorial Optimization Problems
+    title_ref: https://iopscience.iop.org/article/10.1088/2632-2153/acb895/meta
     authors: Shoummo Ahsan Khandoker, Jawaril Munshad Abedin, Mohamed Hibat-Allah
     conference_short:
     conference: "Machine Learning: Science and Technology, 2023."
-    pdf: https://iopscience.iop.org/article/10.1088/2632-2153/acb895/meta
+    pdf: https://iopscience.iop.org/article/10.1088/2632-2153/acb895/pdf
     code: https://github.com/RNN-VCA-CO/RNN-VCA-CO
     bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:s3Nw_DCXcV8J:scholar.google.com/&output=citation&scisdr=ClEkI0ApEMz20sCkn-8:AFWwaeYAAAAAZ3iih-_Y_8QRkD6o5OQbqaCq5xM&scisig=AFWwaeYAAAAAZ3iih9ExUNmOIXle-eD-_eE2gjM&scisf=4&ct=citation&cd=-1&hl=en
     image: 
