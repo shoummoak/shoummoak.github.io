@@ -5,7 +5,7 @@
 
 {% for link in site.data.publications.main %}
 
-<li>
+<li style="list-style-position: inside; padding: 0;">
 <div class="pub-row">
   <!-- <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 0px;">
     {% if link.image %} 
@@ -15,7 +15,7 @@
     {% endif %}
     {% endif %}
   </div> -->
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 0px;">
       <div class="title"><a href="{{ link.title_ref }}" target="_blank">{{ link.title }}</a></div>
       <div class="author">{{ link.authors }}</div>
       <div class="periodical"><em>{{ link.conference }}</em>
