@@ -1,11 +1,11 @@
 <h2 id="publications" style="margin: 2px 0px -15px;">Papers</h2>
 
 <div class="publications">
-<ol class="bibliography" style="padding-left: 0;">
+<ol class="bibliography">
 
 {% for link in site.data.publications.main %}
 
-<li style="padding-left: 0; margin-left: 20px;">
+<li>
 <div class="pub-row">
   <!-- <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 0px;">
     {% if link.image %} 
@@ -15,7 +15,7 @@
     {% endif %}
     {% endif %}
   </div> -->
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 0;">
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
       <div class="title"><a href="{{ link.title_ref }}" target="_blank">{{ link.title }}</a></div>
       <div class="author">{{ link.authors }}</div>
       <div class="periodical"><em>{{ link.conference }}</em>
