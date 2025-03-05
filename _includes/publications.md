@@ -36,8 +36,8 @@
       {% if link.notes %} 
       <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
       {% endif %}
-      {% if link.others %} 
-      {{ link.others }}
+      {% if link.workshop %} 
+      <a href="{{ link.workshop }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Workshop</a>
       {% endif %}
     </div>
   </div>
