@@ -9,7 +9,7 @@ main:
     code: 
     bibtex: 
     image: 
-    notes: Workshop Link: https://ai-2-ase.github.io/
+    notes: 
 
   - title: Supplementing Recurrent Neural Networks with Annealing to Solve Combinatorial Optimization Problems
     title_ref: https://iopscience.iop.org/article/10.1088/2632-2153/acb895/meta
@@ -21,6 +21,3 @@ main:
     bibtex: "assets/bibtex/SuppRNN.html"
     image: 
     notes: 
-
-
-
