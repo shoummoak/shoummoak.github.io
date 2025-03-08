@@ -7,7 +7,7 @@ main:
     conference: "AAAI 2025 - AI2ASE Workshop"
     pdf: https://arxiv.org/abs/2502.20632
     code: 
-    bibtex: 
+    bibtex: "assets/bibtex/Folding.html"
     image: 
     notes: 
     workshop: https://ai-2-ase.github.io/
