@@ -2,7 +2,7 @@ main:
 
   - title: Lattice Protein Folding with Variational Annealing
     title_ref: https://arxiv.org/abs/2502.20632
-    authors: Shoummo Ahsan Khandoker, Estelle M. Inack, Mohamed Hibat-Allah
+    authors: Shoummo A. Khandoker, Estelle M. Inack, Mohamed Hibat-Allah
     conference_short:
     conference: "AAAI 2025 - AI2ASE Workshop"
     pdf: https://arxiv.org/abs/2502.20632
