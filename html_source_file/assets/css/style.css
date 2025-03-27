@@ -63,13 +63,36 @@ papertitle { font-weight: 600; font-size: 100%; }
 
 .image:before { -moz-transition: opacity 0.2s ease-in-out; -webkit-transition: opacity 0.2s ease-in-out; -ms-transition: opacity 0.2s ease-in-out; transition: opacity 0.2s ease-in-out; border-radius: 0.35em; content: ''; display: block; height: 100%; left: 0; opacity: 0.5; position: absolute; top: 0; width: 100%; }
 
-.image.avatar { border-radius: 100%; }
+/* .image.avatar { border-radius: 100%; }
 
 .image.avatar:before { display: none; }
 
 .image.avatar img { border-radius: 100%; width: 45%; padding: 20px; }
 
-#header .image.avatar { margin: 0 0 1em 0; width: 8.00em; }
+#header .image.avatar { margin: 0 0 1em 0; width: 8.00em; } */
+
+/* MODIFICATION START */
+/* Override the existing avatar styles */
+.image.avatar {
+  border-radius: 0.35em; /* Change from 100% to slight rounded corners */
+  width: 180px; /* Set fixed width */
+  height: 240px; /* Set taller height for vertical rectangle */
+}
+.image.avatar:before { display: none; }
+.image.avatar img {
+  border-radius: 0.35em; /* Match parent's corners */
+  width: 100%; /* Fill the container */
+  height: 100%; /* Fill the container */
+  padding: 0; /* Remove padding */
+  object-fit: cover; /* Ensure image fills space while maintaining aspect ratio */
+}
+
+/* Adjust header spacing if needed */
+#header .image.avatar {
+  margin: 0 0 1.5em 0; /* Slightly larger bottom margin */
+  width: 180px; /* Match the avatar width */
+}
+/* MODIFICAITON END */
 
 h3, h4, h5, h6 { font-weight: 600; color: #043361; margin: 0 0 20px; }
 
