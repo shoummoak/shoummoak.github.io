@@ -2,7 +2,7 @@ main:
 
   - title: Lattice Protein Folding with Variational Annealing
     title_ref: https://arxiv.org/abs/2502.20632
-    authors: Shoummo A. Khandoker, Estelle M. Inack, Mohamed Hibat-Allah
+    authors: Shoummo A. Khandoker,  Estelle M. Inack,  Mohamed Hibat-Allah
     conference_short:
     conference: "AAAI 2025 - AI2ASE Workshop"
     pdf: https://arxiv.org/abs/2502.20632
@@ -15,7 +15,7 @@ main:
 
   - title: Supplementing Recurrent Neural Networks with Annealing to Solve Combinatorial Optimization Problems
     title_ref: https://iopscience.iop.org/article/10.1088/2632-2153/acb895/meta
-    authors: Shoummo A. Khandoker, Jawaril Munshad Abedin, Mohamed Hibat-Allah
+    authors: Shoummo A. Khandoker,  Jawaril Munshad Abedin,  Mohamed Hibat-Allah
     conference_short:
     conference: "Machine Learning: Science and Technology, 2023."
     pdf: https://arxiv.org/abs/2207.08189
