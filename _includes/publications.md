@@ -19,9 +19,6 @@
       <div class="title"><a href="{{ link.title_ref }}" target="_blank">{{ link.title }}</a></div>
       <div class="author">{{ link.authors }}</div>
       <div class="periodical"><em>{{ link.conference }}</em></div>
-      {% if link.notes %}
-      <div class="periodical"><em>{{ link.notes }}</em></div>
-      {% endif %}
     <div class="links">
       {% if link.pdf %} 
       <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
@@ -46,6 +43,20 @@
       {% endif %}
     </div>
   </div>
+  <!--   if workshop -->
+  {% if link.notes %}
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 0px;">
+    <div class="periodical"><em>{{ link.notes }}</em></div>
+  </div>
+  <div class="links">
+      {% if link.workshop %} 
+      <a href="{{ link.workshop }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Workshop</a>
+      {% endif %}
+      {% if link.poster %} 
+      <a href="{{ link.poster }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Poster</a>
+      {% endif %}
+  </div>
+  {% endif %}
 
 </div>
 </li>
