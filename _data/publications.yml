@@ -9,7 +9,7 @@ main:
     code: 
     bibtex: "assets/bibtex/Folding.html"
     image: 
-    notes: test
+    notes: Early version also presented in AAAI 2025 - AI2ASE Workshop
     workshop: https://ai-2-ase.github.io/
     poster: "assets/files/HPVA_Poster.pdf"
 
