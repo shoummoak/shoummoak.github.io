@@ -42,7 +42,6 @@
       <a href="{{ link.poster }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Poster</a>
       {% endif %} -->
     </div>
-  </div>
   <!--   if workshop -->
   {% if link.workshop_notes %}
     <div class="periodical"><em>{{ link.workshop_notes }}</em></div>
@@ -55,6 +54,7 @@
         {% endif %}
     </div>
   {% endif %}
+  </div>
 
 </div>
 </li>
