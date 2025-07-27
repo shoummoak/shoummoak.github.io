@@ -45,17 +45,15 @@
   </div>
   <!--   if workshop -->
   {% if link.workshop_notes %}
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 0px;">
     <div class="periodical"><em>{{ link.workshop_notes }}</em></div>
-  </div>
-  <div class="links">
-      {% if link.workshop %} 
-      <a href="{{ link.workshop }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Workshop</a>
-      {% endif %}
-      {% if link.poster %} 
-      <a href="{{ link.poster }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Poster</a>
-      {% endif %}
-  </div>
+    <div class="links">
+        {% if link.workshop %} 
+        <a href="{{ link.workshop }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Workshop</a>
+        {% endif %}
+        {% if link.poster %} 
+        <a href="{{ link.poster }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Poster</a>
+        {% endif %}
+    </div>
   {% endif %}
 
 </div>
