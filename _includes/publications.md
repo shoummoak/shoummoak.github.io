@@ -32,7 +32,7 @@
       {% if link.bibtex %} 
       <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
       {% endif %}
-      {% if link.notes %} 
+<!--       {% if link.notes %} 
       <strong> <i style="color:#000000">{{ link.notes }}</i></strong>
       {% endif %}
       {% if link.workshop %} 
@@ -40,13 +40,13 @@
       {% endif %}
       {% if link.poster %} 
       <a href="{{ link.poster }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Poster</a>
-      {% endif %}
+      {% endif %} -->
     </div>
   </div>
   <!--   if workshop -->
-  {% if link.notes %}
+  {% if link.workshop_notes %}
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 0px;">
-    <div class="periodical"><em>{{ link.notes }}</em></div>
+    <div class="periodical"><em>{{ link.workshop_notes }}</em></div>
   </div>
   <div class="links">
       {% if link.workshop %} 
