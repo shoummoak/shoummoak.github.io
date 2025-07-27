@@ -39,7 +39,7 @@
   <!--   if workshop -->
   {% if link.workshop_notes %}
 <!--     <div class="periodical"><em>{{ link.workshop_notes }}</em></div> -->
-    <strong> <i style="color:#000000">{{ link.notes }}</i></strong>
+    <strong> <i style="color:#000000">{{ link.workshop_notes }}</i></strong>
     <div class="links">
         {% if link.workshop %} 
         <a href="{{ link.workshop }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Workshop</a>
