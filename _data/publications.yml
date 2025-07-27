@@ -4,7 +4,7 @@ main:
     title_ref: https://iopscience.iop.org/article/10.1088/2632-2153/adf376/meta
     authors: Shoummo A. Khandoker,  Estelle M. Inack,  Mohamed Hibat-Allah
     conference_short:
-    conference: "Machine Learning: Science and Technology, 2025"
+    conference: "Machine Learning: Science and Technology, 2025\nyui"
     pdf: https://iopscience.iop.org/article/10.1088/2632-2153/adf376/pdf
     code: 
     bibtex: "assets/bibtex/Folding.html"
