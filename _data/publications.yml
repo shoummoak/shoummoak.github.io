@@ -5,11 +5,11 @@ main:
     authors: Shoummo A. Khandoker,  Estelle M. Inack,  Mohamed Hibat-Allah
     conference_short:
     conference: "Machine Learning: Science and Technology, 2025"
-    pdf: https://iopscience.iop.org/article/10.1088/2632-2153/adf376/pdf
-    code: 
+    pdf: https://arxiv.org/abs/2502.20632
+    code: https://github.com/shoummoak/VA-HP-Lattice
     bibtex: "assets/bibtex/Folding.html"
     image: 
-    workshop_notes: Early version also presented in AAAI 2025 - AI2ASE Workshop
+    workshop_notes: Also presented in AAAI 2025 - AI2ASE Workshop
     workshop: https://ai-2-ase.github.io/
     poster: "assets/files/HPVA_Poster.pdf"
 
