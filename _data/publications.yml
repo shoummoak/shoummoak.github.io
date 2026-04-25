@@ -9,7 +9,7 @@ main:
     code: https://github.com/shoummoak/VA-HP-Lattice
     bibtex: "assets/bibtex/Folding.html"
     image: 
-    workshop_notes: Also presented in AAAI 2025 - AI2ASE Workshop
+    workshop_notes: AAAI 2025 - AI2ASE Workshop
     workshop: https://ai-2-ase.github.io/
     poster: "assets/files/HPVA_Poster.pdf"
 
